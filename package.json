@@ -1,0 +1,37 @@
+{
+  "name": "sales-management-l2",
+  "version": "0.1.1",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "gh-pages": "^2.1.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "^3.1.1",
+    "react-toastify": "^7.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test --watchAll=false",
+    "prettier:format": "prettier --write \"{,src/**/}*.{md,json,js,ts,tsx,css,scss,yml}\"",
+    "cleanup": "rimraf target/classes/static/"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.1",
+    "prettier": "2.2.1"
+  }
+}
