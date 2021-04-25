@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        "__m.js": true,
+        "resolv.sh": true,
+        "src/App.test.js": true,
+        ".mvn/": true,
+        ".idea/": true,
+        ".vscode/": true,
+        "mvnw": true,
+        "prebuild.sh": true,
+        "clean.sh": true,
+        "solution.sh": true,
+    },
+
+    "files.associations": {
+        "*.js": "javascriptreact"
+    }
+}

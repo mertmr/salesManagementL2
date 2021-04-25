@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "Test App",
+        "command": "npm",
+        "args": ["test"],
+        "type": "shell",
+    }, {
+        "label": "Submit App",
+        "command": "./solution.sh",
+        "type": "shell",
